@@ -8,12 +8,16 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State var numOfPeople = 1
+    @State var tipPercentage = 20
+    @State var billTotal = 0.0
+    
     var body: some View {
         VStack {
             Image(systemName: "globe")
                 .imageScale(.large)
                 .foregroundColor(.accentColor)
-            Text("Hello, world!")
+            Text("Hello, world!!!")
         }
         .padding()
     }
